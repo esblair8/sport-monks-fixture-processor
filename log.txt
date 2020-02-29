@@ -1,0 +1,1515 @@
+Serverless: Starting Offline: dev/us-east-1.
+
+Serverless: Routes for helloWorld:
+Serverless: GET /predictions
+Serverless: POST /{apiVersion}/functions/predictions-dev-helloWorld/invocations
+
+Serverless: Offline [HTTP] listening on http://localhost:3000
+Serverless: Enter "rp" to replay the last request
+
+Serverless: GET /predictions (λ: helloWorld)
+11865377 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-02 17:00:00',
+    date: '2019-08-02',
+    time: '17:00:00',
+    timestamp: 1564765200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865371 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-03 14:00:00',
+    date: '2019-08-03',
+    time: '14:00:00',
+    timestamp: 1564840800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879545 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-03 14:00:00',
+    date: '2019-08-03',
+    time: '14:00:00',
+    timestamp: 1564840800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879546 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-03 14:00:00',
+    date: '2019-08-03',
+    time: '14:00:00',
+    timestamp: 1564840800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879547 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-03 14:00:00',
+    date: '2019-08-03',
+    time: '14:00:00',
+    timestamp: 1564840800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879548 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-03 14:00:00',
+    date: '2019-08-03',
+    time: '14:00:00',
+    timestamp: 1564840800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865374 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-04 10:00:00',
+    date: '2019-08-04',
+    time: '10:00:00',
+    timestamp: 1564912800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865375 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-04 12:00:00',
+    date: '2019-08-04',
+    time: '12:00:00',
+    timestamp: 1564920000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879549 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-04 12:30:00',
+    date: '2019-08-04',
+    time: '12:30:00',
+    timestamp: 1564921800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865373 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-04 14:00:00',
+    date: '2019-08-04',
+    time: '14:00:00',
+    timestamp: 1564927200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879544 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-04 14:00:00',
+    date: '2019-08-04',
+    time: '14:00:00',
+    timestamp: 1564927200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865372 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-04 16:00:00',
+    date: '2019-08-04',
+    time: '16:00:00',
+    timestamp: 1564934400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865376 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-05 17:00:00',
+    date: '2019-08-05',
+    time: '17:00:00',
+    timestamp: 1565024400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865378 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-09 16:00:00',
+    date: '2019-08-09',
+    time: '16:00:00',
+    timestamp: 1565366400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865381 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-09 18:00:00',
+    date: '2019-08-09',
+    time: '18:00:00',
+    timestamp: 1565373600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879552 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-10 11:00:00',
+    date: '2019-08-10',
+    time: '11:00:00',
+    timestamp: 1565434800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879554 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-10 13:00:00',
+    date: '2019-08-10',
+    time: '13:00:00',
+    timestamp: 1565442000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879550 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-10 14:00:00',
+    date: '2019-08-10',
+    time: '14:00:00',
+    timestamp: 1565445600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879551 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-10 14:00:00',
+    date: '2019-08-10',
+    time: '14:00:00',
+    timestamp: 1565445600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865383 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-11 10:00:00',
+    date: '2019-08-11',
+    time: '10:00:00',
+    timestamp: 1565517600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865380 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-11 12:00:00',
+    date: '2019-08-11',
+    time: '12:00:00',
+    timestamp: 1565524800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865382 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-11 14:00:00',
+    date: '2019-08-11',
+    time: '14:00:00',
+    timestamp: 1565532000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879553 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-11 14:00:00',
+    date: '2019-08-11',
+    time: '14:00:00',
+    timestamp: 1565532000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879555 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-11 14:00:00',
+    date: '2019-08-11',
+    time: '14:00:00',
+    timestamp: 1565532000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865384 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-11 16:00:00',
+    date: '2019-08-11',
+    time: '16:00:00',
+    timestamp: 1565539200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865379 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-12 17:00:00',
+    date: '2019-08-12',
+    time: '17:00:00',
+    timestamp: 1565629200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865387 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-16 16:00:00',
+    date: '2019-08-16',
+    time: '16:00:00',
+    timestamp: 1565971200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865388 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-16 18:00:00',
+    date: '2019-08-16',
+    time: '18:00:00',
+    timestamp: 1565978400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: 4,
+  extra_minute: null,
+  injury_time: 7
+}
+11865391 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-18 10:00:00',
+    date: '2019-08-18',
+    time: '10:00:00',
+    timestamp: 1566122400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865390 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-18 12:00:00',
+    date: '2019-08-18',
+    time: '12:00:00',
+    timestamp: 1566129600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865385 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-18 14:00:00',
+    date: '2019-08-18',
+    time: '14:00:00',
+    timestamp: 1566136800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865386 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-18 16:00:00',
+    date: '2019-08-18',
+    time: '16:00:00',
+    timestamp: 1566144000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865389 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-19 17:00:00',
+    date: '2019-08-19',
+    time: '17:00:00',
+    timestamp: 1566234000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865396 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-23 17:00:00',
+    date: '2019-08-23',
+    time: '17:00:00',
+    timestamp: 1566579600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879557 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-24 14:00:00',
+    date: '2019-08-24',
+    time: '14:00:00',
+    timestamp: 1566655200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879558 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-24 14:00:00',
+    date: '2019-08-24',
+    time: '14:00:00',
+    timestamp: 1566655200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879559 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-24 14:00:00',
+    date: '2019-08-24',
+    time: '14:00:00',
+    timestamp: 1566655200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879560 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-24 14:00:00',
+    date: '2019-08-24',
+    time: '14:00:00',
+    timestamp: 1566655200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865398 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-25 10:00:00',
+    date: '2019-08-25',
+    time: '10:00:00',
+    timestamp: 1566727200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879561 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-25 11:15:00',
+    date: '2019-08-25',
+    time: '11:15:00',
+    timestamp: 1566731700,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865397 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-25 12:00:00',
+    date: '2019-08-25',
+    time: '12:00:00',
+    timestamp: 1566734400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865393 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-25 14:00:00',
+    date: '2019-08-25',
+    time: '14:00:00',
+    timestamp: 1566741600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879556 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-25 14:00:00',
+    date: '2019-08-25',
+    time: '14:00:00',
+    timestamp: 1566741600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865394 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-25 16:00:00',
+    date: '2019-08-25',
+    time: '16:00:00',
+    timestamp: 1566748800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865392 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-25 18:00:00',
+    date: '2019-08-25',
+    time: '18:00:00',
+    timestamp: 1566756000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865395 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-26 17:00:00',
+    date: '2019-08-26',
+    time: '17:00:00',
+    timestamp: 1566838800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865402 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-30 17:00:00',
+    date: '2019-08-30',
+    time: '17:00:00',
+    timestamp: 1567184400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865404 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-31 14:00:00',
+    date: '2019-08-31',
+    time: '14:00:00',
+    timestamp: 1567260000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879562 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-31 14:00:00',
+    date: '2019-08-31',
+    time: '14:00:00',
+    timestamp: 1567260000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879563 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-31 14:00:00',
+    date: '2019-08-31',
+    time: '14:00:00',
+    timestamp: 1567260000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879564 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-31 14:00:00',
+    date: '2019-08-31',
+    time: '14:00:00',
+    timestamp: 1567260000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879565 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-31 14:00:00',
+    date: '2019-08-31',
+    time: '14:00:00',
+    timestamp: 1567260000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: '22',
+  added_time: 2,
+  extra_minute: null,
+  injury_time: 337
+}
+11879567 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-08-31 14:00:00',
+    date: '2019-08-31',
+    time: '14:00:00',
+    timestamp: 1567260000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: '11',
+  added_time: 4,
+  extra_minute: null,
+  injury_time: 341
+}
+11865405 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-01 10:00:00',
+    date: '2019-09-01',
+    time: '10:00:00',
+    timestamp: 1567332000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879566 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-01 11:00:00',
+    date: '2019-09-01',
+    time: '11:00:00',
+    timestamp: 1567335600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865401 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-01 12:00:00',
+    date: '2019-09-01',
+    time: '12:00:00',
+    timestamp: 1567339200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865403 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-01 12:00:00',
+    date: '2019-09-01',
+    time: '12:00:00',
+    timestamp: 1567339200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865400 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-01 14:00:00',
+    date: '2019-09-01',
+    time: '14:00:00',
+    timestamp: 1567346400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865399 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-01 16:00:00',
+    date: '2019-09-01',
+    time: '16:00:00',
+    timestamp: 1567353600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865406 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-13 17:00:00',
+    date: '2019-09-13',
+    time: '17:00:00',
+    timestamp: 1568394000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879569 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-14 11:00:00',
+    date: '2019-09-14',
+    time: '11:00:00',
+    timestamp: 1568458800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879568 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-14 14:00:00',
+    date: '2019-09-14',
+    time: '14:00:00',
+    timestamp: 1568469600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879570 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-14 14:00:00',
+    date: '2019-09-14',
+    time: '14:00:00',
+    timestamp: 1568469600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879571 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-14 14:00:00',
+    date: '2019-09-14',
+    time: '14:00:00',
+    timestamp: 1568469600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879572 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-14 14:00:00',
+    date: '2019-09-14',
+    time: '14:00:00',
+    timestamp: 1568469600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879573 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-14 14:00:00',
+    date: '2019-09-14',
+    time: '14:00:00',
+    timestamp: 1568469600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865408 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-15 10:00:00',
+    date: '2019-09-15',
+    time: '10:00:00',
+    timestamp: 1568541600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865410 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-15 12:00:00',
+    date: '2019-09-15',
+    time: '12:00:00',
+    timestamp: 1568548800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865411 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-15 12:00:00',
+    date: '2019-09-15',
+    time: '12:00:00',
+    timestamp: 1568548800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865409 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-15 14:00:00',
+    date: '2019-09-15',
+    time: '14:00:00',
+    timestamp: 1568556000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865407 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-15 16:00:00',
+    date: '2019-09-15',
+    time: '16:00:00',
+    timestamp: 1568563200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865412 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-16 17:00:00',
+    date: '2019-09-16',
+    time: '17:00:00',
+    timestamp: 1568653200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865415 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-20 17:00:00',
+    date: '2019-09-20',
+    time: '17:00:00',
+    timestamp: 1568998800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879576 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-21 14:00:00',
+    date: '2019-09-21',
+    time: '14:00:00',
+    timestamp: 1569074400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879577 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-21 14:00:00',
+    date: '2019-09-21',
+    time: '14:00:00',
+    timestamp: 1569074400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879579 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-21 14:00:00',
+    date: '2019-09-21',
+    time: '14:00:00',
+    timestamp: 1569074400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865417 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 10:00:00',
+    date: '2019-09-22',
+    time: '10:00:00',
+    timestamp: 1569146400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879578 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 11:15:00',
+    date: '2019-09-22',
+    time: '11:15:00',
+    timestamp: 1569150900,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865416 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 12:00:00',
+    date: '2019-09-22',
+    time: '12:00:00',
+    timestamp: 1569153600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865419 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 12:00:00',
+    date: '2019-09-22',
+    time: '12:00:00',
+    timestamp: 1569153600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879574 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 12:00:00',
+    date: '2019-09-22',
+    time: '12:00:00',
+    timestamp: 1569153600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865418 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 14:00:00',
+    date: '2019-09-22',
+    time: '14:00:00',
+    timestamp: 1569160800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879575 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 14:00:00',
+    date: '2019-09-22',
+    time: '14:00:00',
+    timestamp: 1569160800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865413 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-22 16:00:00',
+    date: '2019-09-22',
+    time: '16:00:00',
+    timestamp: 1569168000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865414 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-23 17:00:00',
+    date: '2019-09-23',
+    time: '17:00:00',
+    timestamp: 1569258000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865426 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-27 17:00:00',
+    date: '2019-09-27',
+    time: '17:00:00',
+    timestamp: 1569603600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879581 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-28 11:30:00',
+    date: '2019-09-28',
+    time: '11:30:00',
+    timestamp: 1569670200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879580 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-28 14:00:00',
+    date: '2019-09-28',
+    time: '14:00:00',
+    timestamp: 1569679200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879582 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-28 14:00:00',
+    date: '2019-09-28',
+    time: '14:00:00',
+    timestamp: 1569679200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879583 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-28 14:00:00',
+    date: '2019-09-28',
+    time: '14:00:00',
+    timestamp: 1569679200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879584 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-28 14:00:00',
+    date: '2019-09-28',
+    time: '14:00:00',
+    timestamp: 1569679200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11879585 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-28 14:00:00',
+    date: '2019-09-28',
+    time: '14:00:00',
+    timestamp: 1569679200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865420 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-28 15:00:00',
+    date: '2019-09-28',
+    time: '15:00:00',
+    timestamp: 1569682800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865425 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-29 10:00:00',
+    date: '2019-09-29',
+    time: '10:00:00',
+    timestamp: 1569751200,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865423 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-29 12:00:00',
+    date: '2019-09-29',
+    time: '12:00:00',
+    timestamp: 1569758400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865422 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-29 14:00:00',
+    date: '2019-09-29',
+    time: '14:00:00',
+    timestamp: 1569765600,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865421 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-29 16:00:00',
+    date: '2019-09-29',
+    time: '16:00:00',
+    timestamp: 1569772800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865424 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-09-30 17:00:00',
+    date: '2019-09-30',
+    time: '17:00:00',
+    timestamp: 1569862800,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865430 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-10-04 17:00:00',
+    date: '2019-10-04',
+    time: '17:00:00',
+    timestamp: 1570208400,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+11865431 {
+  status: 'FT',
+  starting_at: {
+    date_time: '2019-10-05 14:00:00',
+    date: '2019-10-05',
+    time: '14:00:00',
+    timestamp: 1570284000,
+    timezone: 'UTC'
+  },
+  minute: 90,
+  second: null,
+  added_time: null,
+  extra_minute: null,
+  injury_time: null
+}
+
+Serverless: Warning: handler 'helloWorld' returned a promise and also uses a callback!
+This is problematic and might cause issues in your lambda.
+Serverless: Got SIGINT signal. Offline Halting...
+Serverless: Halting offline server
