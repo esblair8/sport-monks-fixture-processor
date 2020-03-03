@@ -7,11 +7,14 @@
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "serverless-offline": "^5.12.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "seed": "node src/seeds/seedDbWithPersons.js"
+    "start": "node handler.js",
+    "seed": "node src/seeds/seedDbWithPersons.js",
+    "offline": "sls offline start"
   },
   "author": "Evan Blair",
   "license": "ISC"

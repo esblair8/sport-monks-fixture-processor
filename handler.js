@@ -1,5 +1,5 @@
 'use strict'
-const main = require('./src/index')
+const main = require('./src/controllers/predictionProcessingController')
 
 module.exports.processFixtures = async event => {
   main()

@@ -1,18 +1,24 @@
 'use strict'
 require('dotenv').config()
 const mongoose = require('mongoose')
-const db = 
-const SportmonksApi = require('./services/sportmonks')
-const FixtureModel = require('./schemas/fixtureModel')
-const jsonFormatHelper = require('./utils/jsonFormatHelper')
+const connectToDatabase = require('../database/connection')
+const SportmonksApi = require('../services/sportmonks')
+const FixtureModel = require('../schemas/fixture')
+const jsonFormatHelper = require('../utils/jsonFormatHelper')
 const sportmonksClient = new SportmonksApi(process.env.SPORTMONKS_API_KEY)
 const startDate = process.argv[2]
 const endDate = process.argv[3]
 
+
+// mongoose.Promise = global.Promise
+// const connectionString = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_CONNECTION_STRING}`
+// mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true })
+// mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection error:'))
+
 const main = async () => {
-	m
+	await connectToDatabase(mongoose)
 	await startPredictionProcessing(1)
-	mongoose.disconnect()
+	 mongoose.disconnect()
 }
 
 const startPredictionProcessing = async (currentPage) => {
@@ -45,4 +51,5 @@ const saveFixturesToDb = async (fixtures, currentPage, numberOfPages) => {
 	}
 }
 
-module.exports.main = main
+// module.exports = main
+main()

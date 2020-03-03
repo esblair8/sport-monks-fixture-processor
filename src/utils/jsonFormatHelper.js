@@ -63,6 +63,7 @@ const manipulateCorrectScoreOdds = (data, fixtureId) => {
         let reducedData = data[1]['odds'].reduce((obj, item) => (obj[item.label.replace(':', '-')] = Number(item['dp3']), obj), {})
         const orderedData = {}
         Object.keys(reducedData).sort().forEach(function (key) { orderedData[key] = reducedData[key] })
+
         return orderedData;
     } catch (e) {
         console.error(`no correct score odds data available for fixture ${fixtureId}`)
