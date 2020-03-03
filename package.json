@@ -1,16 +1,18 @@
 {
-  "name": "hello-world",
+  "name": "sport-monks-api-crawler",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
   "dependencies": {
-    "serverless-offline": "^5.12.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.2",
     "sportmonks": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "offline": "serverless offline start"
+    "start": "node handler.js"
   },
   "author": "",
   "license": "ISC"
