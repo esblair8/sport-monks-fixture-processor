@@ -1,11 +1,10 @@
 {
   "name": "sport-monks-api-crawler",
   "version": "1.0.0",
-  "description": "",
-  "main": "handler.js",
+  "description": "serverless cron job for populating mongo with data from sport monks api",
+  "main": "index.js",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "moment": "^2.24.0",
     "mongoose": "^5.9.2"
   },
   "devDependencies": {},
@@ -14,6 +13,6 @@
     "start": "node src/index.js",
     "seed": "node src/seeds/seedDbWithPersons.js"
   },
-  "author": "",
+  "author": "Evan Blair",
   "license": "ISC"
 }

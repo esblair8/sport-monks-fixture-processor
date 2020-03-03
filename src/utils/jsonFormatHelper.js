@@ -1,5 +1,5 @@
 module.exports.reformatFixture = fixture => {
-
+    const fixtureId = fixture.id
     const flatOdds = fixture.flatOdds.data
     const fullTimeScore = fixture.scores.ft_score
     const predictions = fixture.probability.data.predictions
@@ -9,12 +9,12 @@ module.exports.reformatFixture = fixture => {
     const predicted1X2Correct = isPredictionCorrect(predicted1X2, actual1X2)
     const predictedScoresOver5 = getPredictedScoresOver5(predictions.correct_score)
     const actualScoreInTopPredictions = isFtScorePredictionInListOfTopPredictedScores(fullTimeScore, predictedScoresOver5)
-    const betfairOdds = manipulateBookmakerData(flatOdds)
+    const betfairOdds = manipulateBookmaker(flatOdds, fixtureId)
     const topPredictedScoreCorrect = isPredictionCorrect(topPredictedScore, fullTimeScore)
 
     return {
         leagueId: fixture.league_id,
-        fixtureId: fixture.id,
+        fixtureId: fixtureId,
         time: fixture.time.starting_at.date_time,
         localTeam: fixture.localTeam.data.name,
         localTeamId: fixture.localTeam.data.id,
@@ -34,20 +34,18 @@ module.exports.reformatFixture = fixture => {
     }
 }
 
-const manipulateBookmakerData = data => {
-    const filteredBookieData = data.filter(bookie => bookie.bookmaker_id === 15 && (bookie.market_id === 975909 || bookie.market_id === 1))
-
+const manipulateBookmaker = (data, fixtureId) => {
     return {
         matchOdds: {
-            ...manipulateMatchOddsData(data)
+            ...manipulateMatchOdds(data, fixtureId)
         },
         correctScoreOdds: {
-            ...manipulateCorrectScoreOdds(data)
+            ...manipulateCorrectScoreOdds(data, fixtureId)
         }
     }
 }
 
-const manipulateMatchOddsData = (data) => {
+const manipulateMatchOdds = (data, fixtureId) => {
     try {
         return {
             homeWinOdds: parseFloat(data[0]['odds'][0]['dp3']),
@@ -55,7 +53,19 @@ const manipulateMatchOddsData = (data) => {
             drawOdds: parseFloat(data[0]['odds'][2]['dp3'])
         }
     } catch (e) {
-        console.error('no match odds data available')
+        console.error(`no match odds data available for fixture ${fixtureId}`)
+        return {}
+    }
+}
+
+const manipulateCorrectScoreOdds = (data, fixtureId) => {
+    try {
+        let reducedData = data[1]['odds'].reduce((obj, item) => (obj[item.label.replace(':', '-')] = Number(item['dp3']), obj), {})
+        const orderedData = {}
+        Object.keys(reducedData).sort().forEach(function (key) { orderedData[key] = reducedData[key] })
+        return orderedData;
+    } catch (e) {
+        console.error(`no correct score odds data available for fixture ${fixtureId}`)
         return {}
     }
 }
@@ -86,16 +96,4 @@ const predictedHomeWinAwayWinOrDraw = scoreLine => {
         return 'home'
     else
         return 'away'
-}
-
-const manipulateCorrectScoreOdds = data => {
-    try {
-        let reducedData = data[1]['odds'].reduce((obj, item) => (obj[item.label.replace(':', '-')] = Number(item['dp3']), obj), {})
-        const orderedData = {}
-        Object.keys(reducedData).sort().forEach(function (key) { orderedData[key] = reducedData[key] })
-        return orderedData;
-    } catch (e) {
-        console.error('no correct score odds data available')
-        return {}
-    }
 }

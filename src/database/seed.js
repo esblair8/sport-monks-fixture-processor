@@ -10,6 +10,6 @@ const PersonModel = mongoose.model('Person', PersonSchema)
 
 PersonModel.collection.insertMany(people, (err, docs) => {
     if (err) {return console.error(err)}
-    else console.log("people inserted into collection")
+    else console.log('people inserted into collection')
     process.exit()
 })

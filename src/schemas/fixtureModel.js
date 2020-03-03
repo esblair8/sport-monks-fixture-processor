@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-module.exports = new mongoose.Schema({
+module.exports = new mongoose.model('Fixture', {
     leagueId: String,
     fixtureId: String,
     time: String,

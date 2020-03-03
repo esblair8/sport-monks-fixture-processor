@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-module.exports = new mongoose.Schema({
+module.exports = new mongoose.Model('Person', {
     index: Number,
     name: String,
     isActive: Boolean,
