@@ -50,9 +50,9 @@ const manipulateBookmakerData = data => {
 const manipulateMatchOddsData = (data) => {
     try {
         return {
-            homeWinOdds: data[0]['odds'][0]['dp3'],
-            awayWinOdds: data[0]['odds'][1]['dp3'],
-            drawOdds: data[0]['odds'][2]['dp3']
+            homeWinOdds: parseFloat(data[0]['odds'][0]['dp3']),
+            awayWinOdds: parseFloat(data[0]['odds'][1]['dp3']),
+            drawOdds: parseFloat(data[0]['odds'][2]['dp3'])
         }
     } catch (e) {
         console.error('no match odds data available')
