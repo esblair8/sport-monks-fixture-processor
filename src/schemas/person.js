@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
-module.exports = new mongoose.Model('Person', {
+module.exports = new mongoose.model('Person',{
     index: Number,
     name: String,
     isActive: Boolean,
@@ -18,5 +18,5 @@ module.exports = new mongoose.Model('Person', {
             address: String
         }
     },
-    tags: Array
+    tags: []
 })
